@@ -1,27 +1,45 @@
-# 🧠 Machine Learning Projects (Work in Progress)
+# 🧠 Machine Learning Projects
 
-This repository contains my **machine learning learning journey** while studying
-*Hands-On Machine Learning (HOML)*.
+This repository contains my hands-on machine learning learning journey while studying **Hands-On Machine Learning (HOML)**.
 
 ---
 
-## 📘 Current Project
+## 📌 Current Project
 
-### 🏠 California Housing Price Prediction
+🚲 **Bike Sharing Demand Prediction**
 
-- 🔍 End-to-end ML workflow (learning project)
-- 📊 Data exploration & visualization
-- 🧠 Learning train–test split, feature engineering & evaluation
-- 🛠️ Tools: Python, Pandas, NumPy, Scikit-learn
-- 🚧 Status: **Work in Progress**
+* **Type:** Supervised Learning (Regression)
+* **Goal:** Predict total bike rental demand
+* **Dataset:** UCI Bike Sharing Dataset (via Kaggle)
+* **Target:** `cnt` (total rentals)
+
+**Focus areas**
+
+* Feature engineering
+* Pipelines & cross-validation
+* Bias–variance tradeoff
+* Hyperparameter tuning
+
+**Status:** Work in Progress
 
 ---
 
 ## 📂 Structure
 
-- `notebooks/` → Jupyter notebooks (EDA, experiments)
-- `datasets/` → Data files or download instructions
+```text
+datasets/    # datasets or download instructions
+notebooks/   # Jupyter notebooks (EDA, experiments)
+models/      # saved trained models
+outputs/     # plots and results
+```
 
 ---
 
-⭐ This repo will be updated regularly as I learn and build.
+## 📘 Previous Project
+
+🏠 **California Housing Price Prediction**
+End-to-end regression project following HOML.
+
+---
+
+⭐ This repo is updated incrementally as I learn and build.
